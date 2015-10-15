@@ -1,0 +1,33 @@
+.verde{
+	background-color:yellow;  
+}
+.blanco{
+	background-color:blue; 
+}
+.rojo{
+	background-color:red;
+}
+.cuadro{
+	width: 600px;
+	border:1px solid black;
+}
+.rosa{
+	background-color:pink;
+	float:right;
+}
+p{
+	margin: 0px;
+	width:25%;
+	height:100px;
+	float:left;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
